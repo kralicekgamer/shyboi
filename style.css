@@ -1,3 +1,8 @@
 h1 {
-    color: #961212
+    color: #961212;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+* {
+    font-family: 'Ubuntu', sans-serif;
 }
