@@ -15,3 +15,7 @@ body {
 p {
     color: #eee;
 }
+
+ul, a {
+    color: aqua;
+}
