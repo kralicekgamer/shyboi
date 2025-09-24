@@ -3,7 +3,11 @@ h1 {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
+
 * {
     font-family: 'Ubuntu', sans-serif;
+}
+
+body {
     background-color: #222;
 }
