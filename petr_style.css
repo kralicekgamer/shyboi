@@ -9,17 +9,18 @@ h1 {
 }
 
 body {
-    background-color: rgb(15, 44, 53);
+    background-color: #303030;
 }
 
 p {
-    color: #eee;
+    color: #FFFFFF;
     -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: black;
 }
 
 ul, a {
-    color: aqua;
+    color: #ff00ea;
+    font-size: 30px;
 }
 
 img {

@@ -9,13 +9,14 @@ h1 {
 }
 
 body {
-    background-color: #222;
+    background-color: #303030;
 }
 
 p {
-    color: #eee;
+    color: #FFFFFF;
 }
 
 ul, a {
-    color: aqua;
+    color: #ff00ea;
+    font-size: 30px;
 }
