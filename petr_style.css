@@ -1,0 +1,28 @@
+h1 {
+    color: #a200ff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: rgb(15, 44, 53);
+}
+
+p {
+    color: #eee;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+}
+
+ul, a {
+    color: aqua;
+}
+
+img {
+    border: 3px solid black;
+    border-radius: 10px;
+}
