@@ -1,0 +1,22 @@
+h1 {
+    color: #ff0000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #303030;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+ul, a {
+    color: #ff00ea;
+    font-size: 30px;
+}
