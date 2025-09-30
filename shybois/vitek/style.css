@@ -1,0 +1,18 @@
+* {
+    font-family: "Ubuntu", 'Courier New', Courier, monospace;
+    background-color: #F4E9D7;
+} 
+
+h1 {
+    text-align: center;
+    color: #6FA4AF;
+}
+
+p {
+    text-align: center;
+    color: #7b8968;
+}
+
+a {
+    color: #D97D55;
+}
