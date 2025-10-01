@@ -1,3 +1,3 @@
 # shyboi_website
 
-A fun personal website project for "shyboi".
+A fun website project for shybois xd.
