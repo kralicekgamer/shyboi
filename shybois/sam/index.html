@@ -16,7 +16,33 @@
     <p>
         Jsem malý shyboi a spolupracuji na tomto velkém projektu.
     </p>
-    <img src="samuel_shyboi.jpg" alt="Petr" width="20" height="20">
+    <button>
+        <img src="samuel_shyboi.jpg" alt="Petr" width="20" height="20" id="playSoundBtn">
+        <style>
+            button {
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+                padding: 0;
+            }
+        </style>
+        <script>
+            const sounds = [
+            'dude_fuckyou.wav',
+            'Dude-FuckYou01.wav',
+            'Dude-FuckYou02.wav',
+            'Dude-FuckYou03.wav',
+            'Dude-FuckYou04.wav',
+            ];
+        
+            document.getElementById('playSoundBtn').addEventListener('click', () => {
+            // Pick a random index
+            const randomIndex = Math.floor(Math.random() * sounds.length);
+            const audio = new Audio(sounds[randomIndex]);
+            audio.play();
+            });
+        </script>
+    </button>
     <p>
         <a href="/index.html">BACK</a>
     </p>
